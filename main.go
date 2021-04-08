@@ -1,15 +1,17 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-func crawl(URL string) {
+func crawl(URL string) string {
 	res, err := http.Get(URL)
 	if err != nil {
 		log.Fatal("Could not connect to http server")
@@ -20,12 +22,15 @@ func crawl(URL string) {
 	if err != nil {
 		log.Fatal(err)
 	}
+	var buffer bytes.Buffer
 
 	doc.Find(".constants tr").Each(func(i int, s *goquery.Selection) {
-		code := s.Find("td").Next().Find("code").Text()
+		code := s.Find("td").Next().Find("code").First().Text()
 		desc := s.Find("p").First().Text()
-		fmt.Println(output(code, desc))
+		buffer.WriteString(output(code, desc))
 	})
+
+	return buffer.String()
 }
 
 func output(code string, desc string) string {
@@ -41,6 +46,19 @@ func clean(input string) string {
 	return strings.TrimSpace(input)
 }
 
+func write(input string) {
+	f, err := os.OpenFile("results.txt",
+		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	if err != nil {
+		log.Println(err)
+	}
+	defer f.Close()
+	if _, err := f.WriteString(input); err != nil {
+		log.Println(err)
+	}
+}
+
 func main() {
-	crawl("https://developer.android.com/reference/android/Manifest.permission")
+	results := crawl("https://developer.android.com/reference/android/Manifest.permission")
+	write(results)
 }

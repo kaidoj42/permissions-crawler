@@ -1,0 +1,973 @@
+,[
+		'title' => 'android.permission.',
+		'id' => 'android.permission.',
+		'tags' => ['permission'],
+		'description' => ''
+		],[
+		'title' => 'android.permission.ACCEPT_HANDOVER',
+		'id' => 'android.permission.ACCEPT_HANDOVER',
+		'tags' => ['permission'],
+		'description' => 'Allows a calling app to continue a call which was started in another app.'
+		],[
+		'title' => 'android.permission.ACCESS_BACKGROUND_LOCATION',
+		'id' => 'android.permission.ACCESS_BACKGROUND_LOCATION',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to access location in the background.'
+		],[
+		'title' => 'android.permission.ACCESS_CHECKIN_PROPERTIES',
+		'id' => 'android.permission.ACCESS_CHECKIN_PROPERTIES',
+		'tags' => ['permission'],
+		'description' => 'Allows read/write access to the "properties" table in the checkin
+ database, to change values that get uploaded.'
+		],[
+		'title' => 'android.permission.ACCESS_COARSE_LOCATION',
+		'id' => 'android.permission.ACCESS_COARSE_LOCATION',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to access approximate location.'
+		],[
+		'title' => 'android.permission.ACCESS_FINE_LOCATION',
+		'id' => 'android.permission.ACCESS_FINE_LOCATION',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to access precise location.'
+		],[
+		'title' => 'android.permission.ACCESS_LOCATION_EXTRA_COMMANDS',
+		'id' => 'android.permission.ACCESS_LOCATION_EXTRA_COMMANDS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to access extra location provider commands.'
+		],[
+		'title' => 'android.permission.ACCESS_MEDIA_LOCATION',
+		'id' => 'android.permission.ACCESS_MEDIA_LOCATION',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to access any geographic locations persisted in the
+ user's shared collection.'
+		],[
+		'title' => 'android.permission.ACCESS_NETWORK_STATE',
+		'id' => 'android.permission.ACCESS_NETWORK_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to access information about networks.'
+		],[
+		'title' => 'android.permission.ACCESS_NOTIFICATION_POLICY',
+		'id' => 'android.permission.ACCESS_NOTIFICATION_POLICY',
+		'tags' => ['permission'],
+		'description' => 'Marker permission for applications that wish to access notification policy.'
+		],[
+		'title' => 'android.permission.ACCESS_WIFI_STATE',
+		'id' => 'android.permission.ACCESS_WIFI_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to access information about Wi-Fi networks.'
+		],[
+		'title' => 'android.permission.ACCOUNT_MANAGER',
+		'id' => 'android.permission.ACCOUNT_MANAGER',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to call into AccountAuthenticators.'
+		],[
+		'title' => 'android.permission.ACTIVITY_RECOGNITION',
+		'id' => 'android.permission.ACTIVITY_RECOGNITION',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to recognize physical activity.'
+		],[
+		'title' => 'android.permission.ADD_VOICEMAIL',
+		'id' => 'android.permission.ADD_VOICEMAIL',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to add voicemails into the system.'
+		],[
+		'title' => 'android.permission.ANSWER_PHONE_CALLS',
+		'id' => 'android.permission.ANSWER_PHONE_CALLS',
+		'tags' => ['permission'],
+		'description' => 'Allows the app to answer an incoming phone call.'
+		],[
+		'title' => 'android.permission.BATTERY_STATS',
+		'id' => 'android.permission.BATTERY_STATS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to collect battery statistics'
+		],[
+		'title' => 'android.permission.BIND_ACCESSIBILITY_SERVICE',
+		'id' => 'android.permission.BIND_ACCESSIBILITY_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by an AccessibilityService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_APPWIDGET',
+		'id' => 'android.permission.BIND_APPWIDGET',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to tell the AppWidget service which application
+ can access AppWidget's data.'
+		],[
+		'title' => 'android.permission.BIND_AUTOFILL_SERVICE',
+		'id' => 'android.permission.BIND_AUTOFILL_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a AutofillService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_CALL_REDIRECTION_SERVICE',
+		'id' => 'android.permission.BIND_CALL_REDIRECTION_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a CallRedirectionService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE',
+		'id' => 'android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'A subclass of CarrierMessagingClientService must be protected with this permission.'
+		],[
+		'title' => 'android.permission.BIND_CARRIER_MESSAGING_SERVICE',
+		'id' => 'android.permission.BIND_CARRIER_MESSAGING_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 23.
+    Use BIND_CARRIER_SERVICES instead'
+		],[
+		'title' => 'android.permission.BIND_CARRIER_SERVICES',
+		'id' => 'android.permission.BIND_CARRIER_SERVICES',
+		'tags' => ['permission'],
+		'description' => 'The system process that is allowed to bind to services in carrier apps will
+ have this permission.'
+		],[
+		'title' => 'android.permission.BIND_CHOOSER_TARGET_SERVICE',
+		'id' => 'android.permission.BIND_CHOOSER_TARGET_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 30.
+    For publishing direct share targets, please follow the instructions in
+ https://developer.android.com/training/sharing/receive.html#providing-direct-share-targets
+ instead.'
+		],[
+		'title' => 'android.permission.BIND_COMPANION_DEVICE_SERVICE',
+		'id' => 'android.permission.BIND_COMPANION_DEVICE_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by any
+ CompanionDeviceServices
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_CONDITION_PROVIDER_SERVICE',
+		'id' => 'android.permission.BIND_CONDITION_PROVIDER_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a ConditionProviderService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_CONTROLS',
+		'id' => 'android.permission.BIND_CONTROLS',
+		'tags' => ['permission'],
+		'description' => 'Allows SystemUI to request third party controls.'
+		],[
+		'title' => 'android.permission.BIND_DEVICE_ADMIN',
+		'id' => 'android.permission.BIND_DEVICE_ADMIN',
+		'tags' => ['permission'],
+		'description' => 'Must be required by device administration receiver, to ensure that only the
+ system can interact with it.'
+		],[
+		'title' => 'android.permission.BIND_DREAM_SERVICE',
+		'id' => 'android.permission.BIND_DREAM_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by an DreamService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_INCALL_SERVICE',
+		'id' => 'android.permission.BIND_INCALL_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a InCallService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_INPUT_METHOD',
+		'id' => 'android.permission.BIND_INPUT_METHOD',
+		'tags' => ['permission'],
+		'description' => 'Must be required by an InputMethodService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_MIDI_DEVICE_SERVICE',
+		'id' => 'android.permission.BIND_MIDI_DEVICE_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by an MidiDeviceService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_NFC_SERVICE',
+		'id' => 'android.permission.BIND_NFC_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a HostApduService
+ or OffHostApduService to ensure that only
+ the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE',
+		'id' => 'android.permission.BIND_NOTIFICATION_LISTENER_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by an NotificationListenerService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_PRINT_SERVICE',
+		'id' => 'android.permission.BIND_PRINT_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a PrintService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE',
+		'id' => 'android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a QuickAccessWalletService
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_QUICK_SETTINGS_TILE',
+		'id' => 'android.permission.BIND_QUICK_SETTINGS_TILE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to bind to third party quick settings tiles.'
+		],[
+		'title' => 'android.permission.BIND_REMOTEVIEWS',
+		'id' => 'android.permission.BIND_REMOTEVIEWS',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a RemoteViewsService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_SCREENING_SERVICE',
+		'id' => 'android.permission.BIND_SCREENING_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a CallScreeningService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_TELECOM_CONNECTION_SERVICE',
+		'id' => 'android.permission.BIND_TELECOM_CONNECTION_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a ConnectionService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_TEXT_SERVICE',
+		'id' => 'android.permission.BIND_TEXT_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a TextService (e.g. SpellCheckerService)
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_TV_INPUT',
+		'id' => 'android.permission.BIND_TV_INPUT',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a TvInputService
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_VISUAL_VOICEMAIL_SERVICE',
+		'id' => 'android.permission.BIND_VISUAL_VOICEMAIL_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a link VisualVoicemailService to ensure that
+ only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_VOICE_INTERACTION',
+		'id' => 'android.permission.BIND_VOICE_INTERACTION',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a VoiceInteractionService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_VPN_SERVICE',
+		'id' => 'android.permission.BIND_VPN_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a VpnService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_VR_LISTENER_SERVICE',
+		'id' => 'android.permission.BIND_VR_LISTENER_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Must be required by an VrListenerService, to ensure that only
+ the system can bind to it.'
+		],[
+		'title' => 'android.permission.BIND_WALLPAPER',
+		'id' => 'android.permission.BIND_WALLPAPER',
+		'tags' => ['permission'],
+		'description' => 'Must be required by a WallpaperService,
+ to ensure that only the system can bind to it.'
+		],[
+		'title' => 'android.permission.BLUETOOTH',
+		'id' => 'android.permission.BLUETOOTH',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to connect to paired bluetooth devices.'
+		],[
+		'title' => 'android.permission.BLUETOOTH_ADMIN',
+		'id' => 'android.permission.BLUETOOTH_ADMIN',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to discover and pair bluetooth devices.'
+		],[
+		'title' => 'android.permission.BLUETOOTH_PRIVILEGED',
+		'id' => 'android.permission.BLUETOOTH_PRIVILEGED',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to pair bluetooth devices without user interaction, and to
+ allow or disallow phonebook access or message access.'
+		],[
+		'title' => 'android.permission.BODY_SENSORS',
+		'id' => 'android.permission.BODY_SENSORS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to access data from sensors that the user uses to
+ measure what is happening inside their body, such as heart rate.'
+		],[
+		'title' => 'android.permission.BROADCAST_PACKAGE_REMOVED',
+		'id' => 'android.permission.BROADCAST_PACKAGE_REMOVED',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to broadcast a notification that an application
+ package has been removed.'
+		],[
+		'title' => 'android.permission.BROADCAST_SMS',
+		'id' => 'android.permission.BROADCAST_SMS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to broadcast an SMS receipt notification.'
+		],[
+		'title' => 'android.permission.BROADCAST_STICKY',
+		'id' => 'android.permission.BROADCAST_STICKY',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to broadcast sticky intents.'
+		],[
+		'title' => 'android.permission.BROADCAST_WAP_PUSH',
+		'id' => 'android.permission.BROADCAST_WAP_PUSH',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to broadcast a WAP PUSH receipt notification.'
+		],[
+		'title' => 'android.permission.CALL_COMPANION_APP',
+		'id' => 'android.permission.CALL_COMPANION_APP',
+		'tags' => ['permission'],
+		'description' => 'Allows an app which implements the
+ InCallService API to be eligible to be enabled as a
+ calling companion app.'
+		],[
+		'title' => 'android.permission.CALL_PHONE',
+		'id' => 'android.permission.CALL_PHONE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to initiate a phone call without going through
+ the Dialer user interface for the user to confirm the call.'
+		],[
+		'title' => 'android.permission.CALL_PRIVILEGED',
+		'id' => 'android.permission.CALL_PRIVILEGED',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to call any phone number, including emergency
+ numbers, without going through the Dialer user interface for the user
+ to confirm the call being placed.'
+		],[
+		'title' => 'android.permission.CAMERA',
+		'id' => 'android.permission.CAMERA',
+		'tags' => ['permission'],
+		'description' => 'Required to be able to access the camera device.'
+		],[
+		'title' => 'android.permission.CAPTURE_AUDIO_OUTPUT',
+		'id' => 'android.permission.CAPTURE_AUDIO_OUTPUT',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to capture audio output.'
+		],[
+		'title' => 'android.permission.CHANGE_COMPONENT_ENABLED_STATE',
+		'id' => 'android.permission.CHANGE_COMPONENT_ENABLED_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to change whether an application component (other than its own) is
+ enabled or not.'
+		],[
+		'title' => 'android.permission.CHANGE_CONFIGURATION',
+		'id' => 'android.permission.CHANGE_CONFIGURATION',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to modify the current configuration, such
+ as locale.'
+		],[
+		'title' => 'android.permission.CHANGE_NETWORK_STATE',
+		'id' => 'android.permission.CHANGE_NETWORK_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to change network connectivity state.'
+		],[
+		'title' => 'android.permission.CHANGE_WIFI_MULTICAST_STATE',
+		'id' => 'android.permission.CHANGE_WIFI_MULTICAST_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to enter Wi-Fi Multicast mode.'
+		],[
+		'title' => 'android.permission.CHANGE_WIFI_STATE',
+		'id' => 'android.permission.CHANGE_WIFI_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to change Wi-Fi connectivity state.'
+		],[
+		'title' => 'android.permission.CLEAR_APP_CACHE',
+		'id' => 'android.permission.CLEAR_APP_CACHE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to clear the caches of all installed
+ applications on the device.'
+		],[
+		'title' => 'android.permission.CONTROL_LOCATION_UPDATES',
+		'id' => 'android.permission.CONTROL_LOCATION_UPDATES',
+		'tags' => ['permission'],
+		'description' => 'Allows enabling/disabling location update notifications from
+ the radio.'
+		],[
+		'title' => 'android.permission.DELETE_CACHE_FILES',
+		'id' => 'android.permission.DELETE_CACHE_FILES',
+		'tags' => ['permission'],
+		'description' => 'Old permission for deleting an app's cache files, no longer used,
+ but signals for us to quietly ignore calls instead of throwing an exception.'
+		],[
+		'title' => 'android.permission.DELETE_PACKAGES',
+		'id' => 'android.permission.DELETE_PACKAGES',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to delete packages.'
+		],[
+		'title' => 'android.permission.DIAGNOSTIC',
+		'id' => 'android.permission.DIAGNOSTIC',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to RW to diagnostic resources.'
+		],[
+		'title' => 'android.permission.DISABLE_KEYGUARD',
+		'id' => 'android.permission.DISABLE_KEYGUARD',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to disable the keyguard if it is not secure.'
+		],[
+		'title' => 'android.permission.DUMP',
+		'id' => 'android.permission.DUMP',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to retrieve state dump information from system services.'
+		],[
+		'title' => 'android.permission.EXPAND_STATUS_BAR',
+		'id' => 'android.permission.EXPAND_STATUS_BAR',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to expand or collapse the status bar.'
+		],[
+		'title' => 'android.permission.FACTORY_TEST',
+		'id' => 'android.permission.FACTORY_TEST',
+		'tags' => ['permission'],
+		'description' => 'Run as a manufacturer test application, running as the root user.'
+		],[
+		'title' => 'android.permission.FOREGROUND_SERVICE',
+		'id' => 'android.permission.FOREGROUND_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Allows a regular application to use Service.startForeground.'
+		],[
+		'title' => 'android.permission.GET_ACCOUNTS',
+		'id' => 'android.permission.GET_ACCOUNTS',
+		'tags' => ['permission'],
+		'description' => 'Allows access to the list of accounts in the Accounts Service.'
+		],[
+		'title' => 'android.permission.GET_ACCOUNTS_PRIVILEGED',
+		'id' => 'android.permission.GET_ACCOUNTS_PRIVILEGED',
+		'tags' => ['permission'],
+		'description' => 'Allows access to the list of accounts in the Accounts Service.'
+		],[
+		'title' => 'android.permission.GET_PACKAGE_SIZE',
+		'id' => 'android.permission.GET_PACKAGE_SIZE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to find out the space used by any package.'
+		],[
+		'title' => 'android.permission.GET_TASKS',
+		'id' => 'android.permission.GET_TASKS',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 21.
+    No longer enforced.'
+		],[
+		'title' => 'android.permission.GLOBAL_SEARCH',
+		'id' => 'android.permission.GLOBAL_SEARCH',
+		'tags' => ['permission'],
+		'description' => 'This permission can be used on content providers to allow the global
+ search system to access their data.'
+		],[
+		'title' => 'android.permission.HIDE_OVERLAY_WINDOWS',
+		'id' => 'android.permission.HIDE_OVERLAY_WINDOWS',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to prevent non-system-overlay windows from being drawn on top of it'
+		],[
+		'title' => 'android.permission.HIGH_SAMPLING_RATE_SENSORS',
+		'id' => 'android.permission.HIGH_SAMPLING_RATE_SENSORS',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to access sensor data with a sampling rate greater than 200 Hz.'
+		],[
+		'title' => 'android.permission.INSTALL_LOCATION_PROVIDER',
+		'id' => 'android.permission.INSTALL_LOCATION_PROVIDER',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to install a location provider into the Location Manager.'
+		],[
+		'title' => 'android.permission.INSTALL_PACKAGES',
+		'id' => 'android.permission.INSTALL_PACKAGES',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to install packages.'
+		],[
+		'title' => 'android.permission.INSTALL_SHORTCUT',
+		'id' => 'android.permission.INSTALL_SHORTCUT',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to install a shortcut in Launcher.'
+		],[
+		'title' => 'android.permission.INSTANT_APP_FOREGROUND_SERVICE',
+		'id' => 'android.permission.INSTANT_APP_FOREGROUND_SERVICE',
+		'tags' => ['permission'],
+		'description' => 'Allows an instant app to create foreground services.'
+		],[
+		'title' => 'android.permission.INTERACT_ACROSS_PROFILES',
+		'id' => 'android.permission.INTERACT_ACROSS_PROFILES',
+		'tags' => ['permission'],
+		'description' => 'Allows interaction across profiles in the same profile group.'
+		],[
+		'title' => 'android.permission.INTERNET',
+		'id' => 'android.permission.INTERNET',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to open network sockets.'
+		],[
+		'title' => 'android.permission.KILL_BACKGROUND_PROCESSES',
+		'id' => 'android.permission.KILL_BACKGROUND_PROCESSES',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to call
+ ActivityManager.killBackgroundProcesses(String).'
+		],[
+		'title' => 'android.permission.LOADER_USAGE_STATS',
+		'id' => 'android.permission.LOADER_USAGE_STATS',
+		'tags' => ['permission'],
+		'description' => 'Allows a data loader to read a package's access logs.'
+		],[
+		'title' => 'android.permission.LOCATION_HARDWARE',
+		'id' => 'android.permission.LOCATION_HARDWARE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to use location features in hardware,
+ such as the geofencing api.'
+		],[
+		'title' => 'android.permission.MANAGE_DOCUMENTS',
+		'id' => 'android.permission.MANAGE_DOCUMENTS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to manage access to documents, usually as part
+ of a document picker.'
+		],[
+		'title' => 'android.permission.MANAGE_EXTERNAL_STORAGE',
+		'id' => 'android.permission.MANAGE_EXTERNAL_STORAGE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application a broad access to external storage in scoped storage.'
+		],[
+		'title' => 'android.permission.MANAGE_ONGOING_CALLS',
+		'id' => 'android.permission.MANAGE_ONGOING_CALLS',
+		'tags' => ['permission'],
+		'description' => 'Allows to query ongoing call details and manage ongoing calls'
+		],[
+		'title' => 'android.permission.MANAGE_OWN_CALLS',
+		'id' => 'android.permission.MANAGE_OWN_CALLS',
+		'tags' => ['permission'],
+		'description' => 'Allows a calling application which manages it own calls through the self-managed
+ ConnectionService APIs.'
+		],[
+		'title' => 'android.permission.MASTER_CLEAR',
+		'id' => 'android.permission.MASTER_CLEAR',
+		'tags' => ['permission'],
+		'description' => 'Not for use by third-party applications.'
+		],[
+		'title' => 'android.permission.MEDIA_CONTENT_CONTROL',
+		'id' => 'android.permission.MEDIA_CONTENT_CONTROL',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to know what content is playing and control its playback.'
+		],[
+		'title' => 'android.permission.MODIFY_AUDIO_SETTINGS',
+		'id' => 'android.permission.MODIFY_AUDIO_SETTINGS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to modify global audio settings.'
+		],[
+		'title' => 'android.permission.MODIFY_PHONE_STATE',
+		'id' => 'android.permission.MODIFY_PHONE_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows modification of the telephony state - power on, mmi, etc.'
+		],[
+		'title' => 'android.permission.MOUNT_FORMAT_FILESYSTEMS',
+		'id' => 'android.permission.MOUNT_FORMAT_FILESYSTEMS',
+		'tags' => ['permission'],
+		'description' => 'Allows formatting file systems for removable storage.'
+		],[
+		'title' => 'android.permission.MOUNT_UNMOUNT_FILESYSTEMS',
+		'id' => 'android.permission.MOUNT_UNMOUNT_FILESYSTEMS',
+		'tags' => ['permission'],
+		'description' => 'Allows mounting and unmounting file systems for removable storage.'
+		],[
+		'title' => 'android.permission.NFC',
+		'id' => 'android.permission.NFC',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to perform I/O operations over NFC.'
+		],[
+		'title' => 'android.permission.NFC_PREFERRED_PAYMENT_INFO',
+		'id' => 'android.permission.NFC_PREFERRED_PAYMENT_INFO',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to receive NFC preferred payment service information.'
+		],[
+		'title' => 'android.permission.NFC_TRANSACTION_EVENT',
+		'id' => 'android.permission.NFC_TRANSACTION_EVENT',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to receive NFC transaction events.'
+		],[
+		'title' => 'android.permission.PACKAGE_USAGE_STATS',
+		'id' => 'android.permission.PACKAGE_USAGE_STATS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to collect component usage
+ statistics'
+		],[
+		'title' => 'android.permission.PERSISTENT_ACTIVITY',
+		'id' => 'android.permission.PERSISTENT_ACTIVITY',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 15.
+    This functionality will be removed in the future; please do
+ not use. Allow an application to make its activities persistent.'
+		],[
+		'title' => 'android.permission.PROCESS_OUTGOING_CALLS',
+		'id' => 'android.permission.PROCESS_OUTGOING_CALLS',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 29.
+    Applications should use CallRedirectionService instead
+ of the Intent.ACTION_NEW_OUTGOING_CALL broadcast.'
+		],[
+		'title' => 'android.permission.QUERY_ALL_PACKAGES',
+		'id' => 'android.permission.QUERY_ALL_PACKAGES',
+		'tags' => ['permission'],
+		'description' => 'Allows query of any normal app on the device, regardless of manifest declarations.'
+		],[
+		'title' => 'android.permission.READ_CALENDAR',
+		'id' => 'android.permission.READ_CALENDAR',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read the user's calendar data.'
+		],[
+		'title' => 'android.permission.READ_CALL_LOG',
+		'id' => 'android.permission.READ_CALL_LOG',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read the user's call log.'
+		],[
+		'title' => 'android.permission.READ_CONTACTS',
+		'id' => 'android.permission.READ_CONTACTS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read the user's contacts data.'
+		],[
+		'title' => 'android.permission.READ_EXTERNAL_STORAGE',
+		'id' => 'android.permission.READ_EXTERNAL_STORAGE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read from external storage.'
+		],[
+		'title' => 'android.permission.READ_INPUT_STATE',
+		'id' => 'android.permission.READ_INPUT_STATE',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 16.
+    The API that used this permission has been removed.'
+		],[
+		'title' => 'android.permission.READ_LOGS',
+		'id' => 'android.permission.READ_LOGS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read the low-level system log files.'
+		],[
+		'title' => 'android.permission.READ_PHONE_NUMBERS',
+		'id' => 'android.permission.READ_PHONE_NUMBERS',
+		'tags' => ['permission'],
+		'description' => 'Allows read access to the device's phone number(s).'
+		],[
+		'title' => 'android.permission.READ_PHONE_STATE',
+		'id' => 'android.permission.READ_PHONE_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows read only access to phone state, including the current cellular network information,
+ the status of any ongoing calls, and a list of any PhoneAccounts
+ registered on the device.'
+		],[
+		'title' => 'android.permission.READ_PRECISE_PHONE_STATE',
+		'id' => 'android.permission.READ_PRECISE_PHONE_STATE',
+		'tags' => ['permission'],
+		'description' => 'Allows read only access to precise phone state.'
+		],[
+		'title' => 'android.permission.READ_SMS',
+		'id' => 'android.permission.READ_SMS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read SMS messages.'
+		],[
+		'title' => 'android.permission.READ_SYNC_SETTINGS',
+		'id' => 'android.permission.READ_SYNC_SETTINGS',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to read the sync settings.'
+		],[
+		'title' => 'android.permission.READ_SYNC_STATS',
+		'id' => 'android.permission.READ_SYNC_STATS',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to read the sync stats.'
+		],[
+		'title' => 'android.permission.READ_VOICEMAIL',
+		'id' => 'android.permission.READ_VOICEMAIL',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read voicemails in the system.'
+		],[
+		'title' => 'android.permission.REBOOT',
+		'id' => 'android.permission.REBOOT',
+		'tags' => ['permission'],
+		'description' => 'Required to be able to reboot the device.'
+		],[
+		'title' => 'android.permission.RECEIVE_BOOT_COMPLETED',
+		'id' => 'android.permission.RECEIVE_BOOT_COMPLETED',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to receive the
+ Intent.ACTION_BOOT_COMPLETED that is
+ broadcast after the system finishes booting.'
+		],[
+		'title' => 'android.permission.RECEIVE_MMS',
+		'id' => 'android.permission.RECEIVE_MMS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to monitor incoming MMS messages.'
+		],[
+		'title' => 'android.permission.RECEIVE_SMS',
+		'id' => 'android.permission.RECEIVE_SMS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to receive SMS messages.'
+		],[
+		'title' => 'android.permission.RECEIVE_WAP_PUSH',
+		'id' => 'android.permission.RECEIVE_WAP_PUSH',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to receive WAP push messages.'
+		],[
+		'title' => 'android.permission.RECORD_AUDIO',
+		'id' => 'android.permission.RECORD_AUDIO',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to record audio.'
+		],[
+		'title' => 'android.permission.REORDER_TASKS',
+		'id' => 'android.permission.REORDER_TASKS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to change the Z-order of tasks.'
+		],[
+		'title' => 'android.permission.REQUEST_COMPANION_PROFILE_WATCH',
+		'id' => 'android.permission.REQUEST_COMPANION_PROFILE_WATCH',
+		'tags' => ['permission'],
+		'description' => 'Allows app to request to be associated with a device via
+ CompanionDeviceManager
+ as a "watch"'
+		],[
+		'title' => 'android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND',
+		'id' => 'android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND',
+		'tags' => ['permission'],
+		'description' => 'Allows a companion app to run in the background.'
+		],[
+		'title' => 'android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND',
+		'id' => 'android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND',
+		'tags' => ['permission'],
+		'description' => 'Allows a companion app to use data in the background.'
+		],[
+		'title' => 'android.permission.REQUEST_DELETE_PACKAGES',
+		'id' => 'android.permission.REQUEST_DELETE_PACKAGES',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to request deleting packages.'
+		],[
+		'title' => 'android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS',
+		'id' => 'android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS',
+		'tags' => ['permission'],
+		'description' => 'Permission an application must hold in order to use
+ Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS.'
+		],[
+		'title' => 'android.permission.REQUEST_INSTALL_PACKAGES',
+		'id' => 'android.permission.REQUEST_INSTALL_PACKAGES',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to request installing packages.'
+		],[
+		'title' => 'android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE',
+		'id' => 'android.permission.REQUEST_OBSERVE_COMPANION_DEVICE_PRESENCE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to subscribe to notifications about the presence status change
+ of their associated companion device'
+		],[
+		'title' => 'android.permission.REQUEST_PASSWORD_COMPLEXITY',
+		'id' => 'android.permission.REQUEST_PASSWORD_COMPLEXITY',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to request the screen lock complexity and prompt users to update the
+ screen lock to a certain complexity level.'
+		],[
+		'title' => 'android.permission.RESTART_PACKAGES',
+		'id' => 'android.permission.RESTART_PACKAGES',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 15.
+    The ActivityManager.restartPackage(String)
+ API is no longer supported.'
+		],[
+		'title' => 'android.permission.SCHEDULE_EXACT_ALARM',
+		'id' => 'android.permission.SCHEDULE_EXACT_ALARM',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to use exact alarm scheduling APIs to perform timing
+ sensitive background work.'
+		],[
+		'title' => 'android.permission.SEND_RESPOND_VIA_MESSAGE',
+		'id' => 'android.permission.SEND_RESPOND_VIA_MESSAGE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application (Phone) to send a request to other applications
+ to handle the respond-via-message action during incoming calls.'
+		],[
+		'title' => 'android.permission.SEND_SMS',
+		'id' => 'android.permission.SEND_SMS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to send SMS messages.'
+		],[
+		'title' => 'android.permission.SET_ALARM',
+		'id' => 'android.permission.SET_ALARM',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to broadcast an Intent to set an alarm for the user.'
+		],[
+		'title' => 'android.permission.SET_ALWAYS_FINISH',
+		'id' => 'android.permission.SET_ALWAYS_FINISH',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to control whether activities are immediately
+ finished when put in the background.'
+		],[
+		'title' => 'android.permission.SET_ANIMATION_SCALE',
+		'id' => 'android.permission.SET_ANIMATION_SCALE',
+		'tags' => ['permission'],
+		'description' => 'Modify the global animation scaling factor.'
+		],[
+		'title' => 'android.permission.SET_DEBUG_APP',
+		'id' => 'android.permission.SET_DEBUG_APP',
+		'tags' => ['permission'],
+		'description' => 'Configure an application for debugging.'
+		],[
+		'title' => 'android.permission.SET_PREFERRED_APPLICATIONS',
+		'id' => 'android.permission.SET_PREFERRED_APPLICATIONS',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 15.
+    No longer useful, see
+ PackageManager.addPackageToPreferred(String)
+ for details.'
+		],[
+		'title' => 'android.permission.SET_PROCESS_LIMIT',
+		'id' => 'android.permission.SET_PROCESS_LIMIT',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to set the maximum number of (not needed)
+ application processes that can be running.'
+		],[
+		'title' => 'android.permission.SET_TIME',
+		'id' => 'android.permission.SET_TIME',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to set the system time directly.'
+		],[
+		'title' => 'android.permission.SET_TIME_ZONE',
+		'id' => 'android.permission.SET_TIME_ZONE',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to set the system time zone directly.'
+		],[
+		'title' => 'android.permission.SET_WALLPAPER',
+		'id' => 'android.permission.SET_WALLPAPER',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to set the wallpaper.'
+		],[
+		'title' => 'android.permission.SET_WALLPAPER_HINTS',
+		'id' => 'android.permission.SET_WALLPAPER_HINTS',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to set the wallpaper hints.'
+		],[
+		'title' => 'android.permission.SIGNAL_PERSISTENT_PROCESSES',
+		'id' => 'android.permission.SIGNAL_PERSISTENT_PROCESSES',
+		'tags' => ['permission'],
+		'description' => 'Allow an application to request that a signal be sent to all persistent processes.'
+		],[
+		'title' => 'android.permission.SMS_FINANCIAL_TRANSACTIONS',
+		'id' => 'android.permission.SMS_FINANCIAL_TRANSACTIONS',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level S.
+    The API that used this permission is no longer functional.'
+		],[
+		'title' => 'android.permission.START_VIEW_PERMISSION_USAGE',
+		'id' => 'android.permission.START_VIEW_PERMISSION_USAGE',
+		'tags' => ['permission'],
+		'description' => 'Allows the holder to start the permission usage screen for an app.'
+		],[
+		'title' => 'android.permission.STATUS_BAR',
+		'id' => 'android.permission.STATUS_BAR',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to open, close, or disable the status bar
+ and its icons.'
+		],[
+		'title' => 'android.permission.SYSTEM_ALERT_WINDOW',
+		'id' => 'android.permission.SYSTEM_ALERT_WINDOW',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to create windows using the type
+ WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+ shown on top of all other apps.'
+		],[
+		'title' => 'android.permission.TRANSMIT_IR',
+		'id' => 'android.permission.TRANSMIT_IR',
+		'tags' => ['permission'],
+		'description' => 'Allows using the device's IR transmitter, if available.'
+		],[
+		'title' => 'android.permission.UNINSTALL_SHORTCUT',
+		'id' => 'android.permission.UNINSTALL_SHORTCUT',
+		'tags' => ['permission'],
+		'description' => ''
+		],[
+		'title' => 'android.permission.UPDATE_DEVICE_STATS',
+		'id' => 'android.permission.UPDATE_DEVICE_STATS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to update device statistics.'
+		],[
+		'title' => 'android.permission.USE_BIOMETRIC',
+		'id' => 'android.permission.USE_BIOMETRIC',
+		'tags' => ['permission'],
+		'description' => 'Allows an app to use device supported biometric modalities.'
+		],[
+		'title' => 'android.permission.USE_FINGERPRINT',
+		'id' => 'android.permission.USE_FINGERPRINT',
+		'tags' => ['permission'],
+		'description' => 'This constant was deprecated
+      in API level 28.
+    Applications should request USE_BIOMETRIC instead'
+		],[
+		'title' => 'android.permission.USE_FULL_SCREEN_INTENT',
+		'id' => 'android.permission.USE_FULL_SCREEN_INTENT',
+		'tags' => ['permission'],
+		'description' => 'Required for apps targeting Build.VERSION_CODES.Q that want to use
+ notification full screen
+ intents.'
+		],[
+		'title' => 'android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER',
+		'id' => 'android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER',
+		'tags' => ['permission'],
+		'description' => 'Allows to read device identifiers and use ICC based authentication like EAP-AKA.'
+		],[
+		'title' => 'android.permission.USE_SIP',
+		'id' => 'android.permission.USE_SIP',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to use SIP service.'
+		],[
+		'title' => 'android.permission.VIBRATE',
+		'id' => 'android.permission.VIBRATE',
+		'tags' => ['permission'],
+		'description' => 'Allows access to the vibrator.'
+		],[
+		'title' => 'android.permission.WAKE_LOCK',
+		'id' => 'android.permission.WAKE_LOCK',
+		'tags' => ['permission'],
+		'description' => 'Allows using PowerManager WakeLocks to keep processor from sleeping or screen
+ from dimming.'
+		],[
+		'title' => 'android.permission.WRITE_APN_SETTINGS',
+		'id' => 'android.permission.WRITE_APN_SETTINGS',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to write the apn settings and read sensitive fields of
+ an existing apn settings like user and password.'
+		],[
+		'title' => 'android.permission.WRITE_CALENDAR',
+		'id' => 'android.permission.WRITE_CALENDAR',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to write the user's calendar data.'
+		],[
+		'title' => 'android.permission.WRITE_CALL_LOG',
+		'id' => 'android.permission.WRITE_CALL_LOG',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to write (but not read) the user's
+ call log data.'
+		],[
+		'title' => 'android.permission.WRITE_CONTACTS',
+		'id' => 'android.permission.WRITE_CONTACTS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to write the user's contacts data.'
+		],[
+		'title' => 'android.permission.WRITE_EXTERNAL_STORAGE',
+		'id' => 'android.permission.WRITE_EXTERNAL_STORAGE',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to write to external storage.'
+		],[
+		'title' => 'android.permission.WRITE_GSERVICES',
+		'id' => 'android.permission.WRITE_GSERVICES',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to modify the Google service map.'
+		],[
+		'title' => 'android.permission.WRITE_SECURE_SETTINGS',
+		'id' => 'android.permission.WRITE_SECURE_SETTINGS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read or write the secure system settings.'
+		],[
+		'title' => 'android.permission.WRITE_SETTINGS',
+		'id' => 'android.permission.WRITE_SETTINGS',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to read or write the system settings.'
+		],[
+		'title' => 'android.permission.WRITE_SYNC_SETTINGS',
+		'id' => 'android.permission.WRITE_SYNC_SETTINGS',
+		'tags' => ['permission'],
+		'description' => 'Allows applications to write the sync settings.'
+		],[
+		'title' => 'android.permission.WRITE_VOICEMAIL',
+		'id' => 'android.permission.WRITE_VOICEMAIL',
+		'tags' => ['permission'],
+		'description' => 'Allows an application to modify and remove existing voicemails in the system.'
+		]
