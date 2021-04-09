@@ -3,16 +3,18 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/valyala/fastjson"
 )
 
-func crawl(URL string) string {
-	res, err := http.Get(URL)
+func crawlAndroid() string {
+	res, err := http.Get("https://developer.android.com/reference/android/Manifest.permission")
 	if err != nil {
 		log.Fatal("Could not connect to http server")
 	}
@@ -27,9 +29,41 @@ func crawl(URL string) string {
 	doc.Find(".constants tr").Each(func(i int, s *goquery.Selection) {
 		code := s.Find("td").Next().Find("code").First().Text()
 		desc := s.Find("p").First().Text()
-		buffer.WriteString(output(code, desc))
+		buffer.WriteString(output("android.permission."+code, desc))
 	})
 
+	return buffer.String()
+}
+
+func crawlIOS() string {
+	res, err := http.Get("https://developer.apple.com/tutorials/data/documentation/bundleresources/information_property_list/protected_resources.json")
+
+	if err != nil {
+		log.Fatal("Could not connect to http server")
+	}
+	defer res.Body.Close()
+
+	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		log.Fatal("Could not read request body")
+	}
+	var p fastjson.Parser
+	v, err := p.Parse(string(body))
+	if err != nil {
+		log.Fatalf("cannot parse json: %s", err)
+	}
+
+	var buffer bytes.Buffer
+	// Visit all the items in the top object
+	v.GetObject("references").Visit(func(k []byte, v *fastjson.Value) {
+		role := string(v.GetStringBytes("role"))
+		code := string(v.GetStringBytes("title"))
+		desc := string(v.GetStringBytes("abstract", "0", "text"))
+		if role == "symbol" {
+			buffer.WriteString(output(code, desc))
+		}
+
+	})
 	return buffer.String()
 }
 
@@ -38,8 +72,8 @@ func output(code string, desc string) string {
 		return ""
 	}
 	return fmt.Sprintf(`,[
-		'title' => 'android.permission.%s',
-		'id' => 'android.permission.%s',
+		'title' => '%s',
+		'id' => '%s',
 		'tags' => ['permission'],
 		'description' => '%s'
 		]`, code, code, clean(desc))
@@ -51,8 +85,8 @@ func clean(input string) string {
 	return input
 }
 
-func write(input string) {
-	f, err := os.Create("results.txt")
+func write(filename string, input string) {
+	f, err := os.Create(filename)
 	if err != nil {
 		log.Println(err)
 	}
@@ -63,10 +97,17 @@ func write(input string) {
 }
 
 func main() {
-	results := crawl("https://developer.android.com/reference/android/Manifest.permission")
-	log.Println("Done crawling Android permissions")
-	if results != "" {
-		write(results)
+	androidResults := crawlAndroid()
+	log.Println("[Android] Done crawling permissions")
+	if androidResults != "" {
+		write("android_results.txt", androidResults)
 	}
-	log.Printf("Done writing %d characters to file \r\n", len(results))
+	log.Printf("[Android] Done writing %d characters to file \r\n", len(androidResults))
+
+	iosResults := crawlIOS()
+	log.Println("[iOS] Done crawling permissions")
+	if iosResults != "" {
+		write("ios_results.txt", iosResults)
+	}
+	log.Printf("[iOS] Done writing %d characters to file \r\n", len(iosResults))
 }

@@ -1,0 +1,236 @@
+,[
+		'title' => 'NSBluetoothAlwaysUsageDescription',
+		'id' => 'NSBluetoothAlwaysUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to Bluetooth.'
+		],[
+		'title' => 'NSBluetoothPeripheralUsageDescription',
+		'id' => 'NSBluetoothPeripheralUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting the ability to connect to Bluetooth peripherals.'
+		],[
+		'title' => 'NSCalendarsUsageDescription',
+		'id' => 'NSCalendarsUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s calendar data.'
+		],[
+		'title' => 'NSRemindersUsageDescription',
+		'id' => 'NSRemindersUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s reminders.'
+		],[
+		'title' => 'NSCameraUsageDescription',
+		'id' => 'NSCameraUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the device’s camera.'
+		],[
+		'title' => 'NSMicrophoneUsageDescription',
+		'id' => 'NSMicrophoneUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the device’s microphone.'
+		],[
+		'title' => 'NSContactsUsageDescription',
+		'id' => 'NSContactsUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s contacts.'
+		],[
+		'title' => 'NSFaceIDUsageDescription',
+		'id' => 'NSFaceIDUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting the ability to authenticate with Face ID.'
+		],[
+		'title' => 'NSDesktopFolderUsageDescription',
+		'id' => 'NSDesktopFolderUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to the user’s Desktop folder.'
+		],[
+		'title' => 'NSDocumentsFolderUsageDescription',
+		'id' => 'NSDocumentsFolderUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to the user’s Documents folder.'
+		],[
+		'title' => 'NSDownloadsFolderUsageDescription',
+		'id' => 'NSDownloadsFolderUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to the user’s Downloads folder.'
+		],[
+		'title' => 'NSNetworkVolumesUsageDescription',
+		'id' => 'NSNetworkVolumesUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to files on a network volume.'
+		],[
+		'title' => 'NSRemovableVolumesUsageDescription',
+		'id' => 'NSRemovableVolumesUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to files on a removable volume.'
+		],[
+		'title' => 'NSFileProviderPresenceUsageDescription',
+		'id' => 'NSFileProviderPresenceUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs to be informed when other apps access files that it manages.'
+		],[
+		'title' => 'NSFileProviderDomainUsageDescription',
+		'id' => 'NSFileProviderDomainUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to files managed by a file provider.'
+		],[
+		'title' => 'NSGKFriendListUsageDescription',
+		'id' => 'NSGKFriendListUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app needs access to their Game Center friends list.'
+		],[
+		'title' => 'NSHealthClinicalHealthRecordsShareUsageDescription',
+		'id' => 'NSHealthClinicalHealthRecordsShareUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message to the user that explains why the app requested permission to read clinical records.'
+		],[
+		'title' => 'NSHealthShareUsageDescription',
+		'id' => 'NSHealthShareUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message to the user that explains why the app requested permission to read samples from the HealthKit store.'
+		],[
+		'title' => 'NSHealthUpdateUsageDescription',
+		'id' => 'NSHealthUpdateUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message to the user that explains why the app requested permission to save samples to the HealthKit store.'
+		],[
+		'title' => 'NSHealthRequiredReadAuthorizationTypeIdentifiers',
+		'id' => 'NSHealthRequiredReadAuthorizationTypeIdentifiers',
+		'tags' => ['permission'],
+		'description' => 'The clinical record data types that your app must get permission to read.'
+		],[
+		'title' => 'NSHomeKitUsageDescription',
+		'id' => 'NSHomeKitUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s HomeKit configuration data.'
+		],[
+		'title' => 'NSLocationAlwaysAndWhenInUseUsageDescription',
+		'id' => 'NSLocationAlwaysAndWhenInUseUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s location information at all times.'
+		],[
+		'title' => 'NSLocationUsageDescription',
+		'id' => 'NSLocationUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s location information.'
+		],[
+		'title' => 'NSLocationWhenInUseUsageDescription',
+		'id' => 'NSLocationWhenInUseUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s location information while the app is running in the foreground.'
+		],[
+		'title' => 'NSLocationAlwaysUsageDescription',
+		'id' => 'NSLocationAlwaysUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user\'s location at all times.'
+		],[
+		'title' => 'NSWidgetWantsLocation',
+		'id' => 'NSWidgetWantsLocation',
+		'tags' => ['permission'],
+		'description' => 'A Boolean value that indicates a widget uses the user’s location information.'
+		],[
+		'title' => 'NSLocationDefaultAccuracyReduced',
+		'id' => 'NSLocationDefaultAccuracyReduced',
+		'tags' => ['permission'],
+		'description' => 'A Boolean value that indicates whether the app requests reduced location accuracy by default.'
+		],[
+		'title' => 'NSAppleMusicUsageDescription',
+		'id' => 'NSAppleMusicUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s media library.'
+		],[
+		'title' => 'NSMotionUsageDescription',
+		'id' => 'NSMotionUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the device’s motion data.'
+		],[
+		'title' => 'NSFallDetectionUsageDescription',
+		'id' => 'NSFallDetectionUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message to the user that explains the app’s request for permission to access fall detection event data.'
+		],[
+		'title' => 'NSLocalNetworkUsageDescription',
+		'id' => 'NSLocalNetworkUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the local network.'
+		],[
+		'title' => 'NSNearbyInteractionAllowOnceUsageDescription',
+		'id' => 'NSNearbyInteractionAllowOnceUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A request for user permission to begin an interaction session with nearby devices.'
+		],[
+		'title' => 'NFCReaderUsageDescription',
+		'id' => 'NFCReaderUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the device’s NFC hardware.'
+		],[
+		'title' => 'NSPhotoLibraryAddUsageDescription',
+		'id' => 'NSPhotoLibraryAddUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting add-only access to the user’s photo library.'
+		],[
+		'title' => 'NSPhotoLibraryUsageDescription',
+		'id' => 'NSPhotoLibraryUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s photo library.'
+		],[
+		'title' => 'NSAppleScriptEnabled',
+		'id' => 'NSAppleScriptEnabled',
+		'tags' => ['permission'],
+		'description' => 'A Boolean value indicating whether AppleScript is enabled.'
+		],[
+		'title' => 'NSUserTrackingUsageDescription',
+		'id' => 'NSUserTrackingUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that informs the user why an app is requesting permission to use data for tracking the user or the device.'
+		],[
+		'title' => 'NSAppleEventsUsageDescription',
+		'id' => 'NSAppleEventsUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting the ability to send Apple events.'
+		],[
+		'title' => 'NSSystemAdministrationUsageDescription',
+		'id' => 'NSSystemAdministrationUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message in macOS that tells the user why the app is requesting to manipulate the system configuration.'
+		],[
+		'title' => 'ITSAppUsesNonExemptEncryption',
+		'id' => 'ITSAppUsesNonExemptEncryption',
+		'tags' => ['permission'],
+		'description' => 'A Boolean value indicating whether the app uses encryption.'
+		],[
+		'title' => 'ITSEncryptionExportComplianceCode',
+		'id' => 'ITSEncryptionExportComplianceCode',
+		'tags' => ['permission'],
+		'description' => 'The export compliance code provided by App Store Connect for apps that require it.'
+		],[
+		'title' => 'NSSensorKitUsageDescription',
+		'id' => 'NSSensorKitUsageDescription',
+		'tags' => ['permission'],
+		'description' => ''
+		],[
+		'title' => 'NSSensorKitPrivacyPolicyURL',
+		'id' => 'NSSensorKitPrivacyPolicyURL',
+		'tags' => ['permission'],
+		'description' => ''
+		],[
+		'title' => 'NSSiriUsageDescription',
+		'id' => 'NSSiriUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting to send user data to Siri.'
+		],[
+		'title' => 'NSSpeechRecognitionUsageDescription',
+		'id' => 'NSSpeechRecognitionUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting to send user data to Apple’s speech recognition servers.'
+		],[
+		'title' => 'NSVideoSubscriberAccountUsageDescription',
+		'id' => 'NSVideoSubscriberAccountUsageDescription',
+		'tags' => ['permission'],
+		'description' => 'A message that tells the user why the app is requesting access to the user’s TV provider account.'
+		],[
+		'title' => 'UIRequiresPersistentWiFi',
+		'id' => 'UIRequiresPersistentWiFi',
+		'tags' => ['permission'],
+		'description' => 'A Boolean value indicating whether the app requires a Wi-Fi connection.'
+		]
