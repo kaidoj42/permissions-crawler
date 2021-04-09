@@ -46,7 +46,9 @@ func output(code string, desc string) string {
 }
 
 func clean(input string) string {
-	return strings.TrimSpace(input)
+	input = strings.TrimSpace(input)
+	input = strings.ReplaceAll(input, "'", "\\'")
+	return input
 }
 
 func write(input string) {

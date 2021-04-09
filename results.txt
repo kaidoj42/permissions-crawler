@@ -34,7 +34,7 @@
 		'id' => 'android.permission.ACCESS_MEDIA_LOCATION',
 		'tags' => ['permission'],
 		'description' => 'Allows an application to access any geographic locations persisted in the
- user's shared collection.'
+ user\'s shared collection.'
 		],[
 		'title' => 'android.permission.ACCESS_NETWORK_STATE',
 		'id' => 'android.permission.ACCESS_NETWORK_STATE',
@@ -86,7 +86,7 @@
 		'id' => 'android.permission.BIND_APPWIDGET',
 		'tags' => ['permission'],
 		'description' => 'Allows an application to tell the AppWidget service which application
- can access AppWidget's data.'
+ can access AppWidget\'s data.'
 		],[
 		'title' => 'android.permission.BIND_AUTOFILL_SERVICE',
 		'id' => 'android.permission.BIND_AUTOFILL_SERVICE',
@@ -380,7 +380,7 @@
 		'title' => 'android.permission.DELETE_CACHE_FILES',
 		'id' => 'android.permission.DELETE_CACHE_FILES',
 		'tags' => ['permission'],
-		'description' => 'Old permission for deleting an app's cache files, no longer used,
+		'description' => 'Old permission for deleting an app\'s cache files, no longer used,
  but signals for us to quietly ignore calls instead of throwing an exception.'
 		],[
 		'title' => 'android.permission.DELETE_PACKAGES',
@@ -495,7 +495,7 @@
 		'title' => 'android.permission.LOADER_USAGE_STATS',
 		'id' => 'android.permission.LOADER_USAGE_STATS',
 		'tags' => ['permission'],
-		'description' => 'Allows a data loader to read a package's access logs.'
+		'description' => 'Allows a data loader to read a package\'s access logs.'
 		],[
 		'title' => 'android.permission.LOCATION_HARDWARE',
 		'id' => 'android.permission.LOCATION_HARDWARE',
@@ -600,17 +600,17 @@
 		'title' => 'android.permission.READ_CALENDAR',
 		'id' => 'android.permission.READ_CALENDAR',
 		'tags' => ['permission'],
-		'description' => 'Allows an application to read the user's calendar data.'
+		'description' => 'Allows an application to read the user\'s calendar data.'
 		],[
 		'title' => 'android.permission.READ_CALL_LOG',
 		'id' => 'android.permission.READ_CALL_LOG',
 		'tags' => ['permission'],
-		'description' => 'Allows an application to read the user's call log.'
+		'description' => 'Allows an application to read the user\'s call log.'
 		],[
 		'title' => 'android.permission.READ_CONTACTS',
 		'id' => 'android.permission.READ_CONTACTS',
 		'tags' => ['permission'],
-		'description' => 'Allows an application to read the user's contacts data.'
+		'description' => 'Allows an application to read the user\'s contacts data.'
 		],[
 		'title' => 'android.permission.READ_EXTERNAL_STORAGE',
 		'id' => 'android.permission.READ_EXTERNAL_STORAGE',
@@ -632,7 +632,7 @@
 		'title' => 'android.permission.READ_PHONE_NUMBERS',
 		'id' => 'android.permission.READ_PHONE_NUMBERS',
 		'tags' => ['permission'],
-		'description' => 'Allows read access to the device's phone number(s).'
+		'description' => 'Allows read access to the device\'s phone number(s).'
 		],[
 		'title' => 'android.permission.READ_PHONE_STATE',
 		'id' => 'android.permission.READ_PHONE_STATE',
@@ -862,7 +862,7 @@
 		'title' => 'android.permission.TRANSMIT_IR',
 		'id' => 'android.permission.TRANSMIT_IR',
 		'tags' => ['permission'],
-		'description' => 'Allows using the device's IR transmitter, if available.'
+		'description' => 'Allows using the device\'s IR transmitter, if available.'
 		],[
 		'title' => 'android.permission.UNINSTALL_SHORTCUT',
 		'id' => 'android.permission.UNINSTALL_SHORTCUT',
@@ -923,18 +923,18 @@
 		'title' => 'android.permission.WRITE_CALENDAR',
 		'id' => 'android.permission.WRITE_CALENDAR',
 		'tags' => ['permission'],
-		'description' => 'Allows an application to write the user's calendar data.'
+		'description' => 'Allows an application to write the user\'s calendar data.'
 		],[
 		'title' => 'android.permission.WRITE_CALL_LOG',
 		'id' => 'android.permission.WRITE_CALL_LOG',
 		'tags' => ['permission'],
-		'description' => 'Allows an application to write (but not read) the user's
+		'description' => 'Allows an application to write (but not read) the user\'s
  call log data.'
 		],[
 		'title' => 'android.permission.WRITE_CONTACTS',
 		'id' => 'android.permission.WRITE_CONTACTS',
 		'tags' => ['permission'],
-		'description' => 'Allows an application to write the user's contacts data.'
+		'description' => 'Allows an application to write the user\'s contacts data.'
 		],[
 		'title' => 'android.permission.WRITE_EXTERNAL_STORAGE',
 		'id' => 'android.permission.WRITE_EXTERNAL_STORAGE',
