@@ -36,6 +36,7 @@ func crawlAndroid() string {
 }
 
 func crawlIOS() string {
+	//https://developer.apple.com/documentation/bundleresources/information_property_list/protected_resources
 	res, err := http.Get("https://developer.apple.com/tutorials/data/documentation/bundleresources/information_property_list/protected_resources.json")
 
 	if err != nil {
