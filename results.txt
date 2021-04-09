@@ -1,9 +1,4 @@
 ,[
-		'title' => 'android.permission.',
-		'id' => 'android.permission.',
-		'tags' => ['permission'],
-		'description' => ''
-		],[
 		'title' => 'android.permission.ACCEPT_HANDOVER',
 		'id' => 'android.permission.ACCEPT_HANDOVER',
 		'tags' => ['permission'],

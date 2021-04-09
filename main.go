@@ -34,6 +34,9 @@ func crawl(URL string) string {
 }
 
 func output(code string, desc string) string {
+	if code == "" {
+		return ""
+	}
 	return fmt.Sprintf(`,[
 		'title' => 'android.permission.%s',
 		'id' => 'android.permission.%s',
@@ -47,8 +50,7 @@ func clean(input string) string {
 }
 
 func write(input string) {
-	f, err := os.OpenFile("results.txt",
-		os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+	f, err := os.Create("results.txt")
 	if err != nil {
 		log.Println(err)
 	}
@@ -60,5 +62,9 @@ func write(input string) {
 
 func main() {
 	results := crawl("https://developer.android.com/reference/android/Manifest.permission")
-	write(results)
+	fmt.Println("Done crawling")
+	if results != "" {
+		write(results)
+	}
+	fmt.Printf("Done writing %d characters \r\n", len(results))
 }
