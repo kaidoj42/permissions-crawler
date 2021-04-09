@@ -64,9 +64,9 @@ func write(input string) {
 
 func main() {
 	results := crawl("https://developer.android.com/reference/android/Manifest.permission")
-	fmt.Println("Done crawling")
+	log.Println("Done crawling Android permissions")
 	if results != "" {
 		write(results)
 	}
-	fmt.Printf("Done writing %d characters \r\n", len(results))
+	log.Printf("Done writing %d characters to file \r\n", len(results))
 }
